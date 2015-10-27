@@ -1,6 +1,8 @@
-# Write SVG [![Build Status][ci-img]][ci]
+# Write SVG
 
 <img align="right" width="135" height="95" src="http://postcss.github.io/postcss/logo-leftp.png" title="Philosopher’s stone, logo of PostCSS">
+
+[![NPM Version][img-npm]][npm] [![Build Status][img-ci]][ci]
 
 [Write SVG] lets you write SVGs directly in CSS.
 
@@ -112,9 +114,11 @@ grunt.initConfig({
 #### `encoding`
 
 Type: `String`  
-Default: `utf-8`
+Default: `utf-8`  
+Possible Values: `utf-8`, `base64`
 
-Allows you to define the encoding of the SVG.
+Allows you to define the encoding of an SVG.
+
 ```css
 /* before { encoding: 'base64' } */
 
@@ -137,9 +141,15 @@ Allows you to define the encoding of the SVG.
 }
 ```
 
-[ci]: https://travis-ci.org/jonathantneal/postcss-write-svg
-[ci-img]: https://travis-ci.org/jonathantneal/postcss-write-svg.svg
-[Gulp PostCSS]: https://github.com/postcss/gulp-postcss
+[ci]:      https://travis-ci.org/jonathantneal/postcss-write-svg
+[lic]:     LICENSE.md
+[npm]:     https://www.npmjs.com/package/postcss-write-svg
+[img-ci]:  https://img.shields.io/travis/jonathantneal/postcss-write-svg.svg
+[img-npm]: https://img.shields.io/npm/v/postcss-write-svg.svg
+[img-dls]: https://img.shields.io/npm/dm/postcss-write-svg.svg
+[img-lic]: https://img.shields.io/npm/l/postcss-write-svg.svg
+
+[Gulp PostCSS]:  https://github.com/postcss/gulp-postcss
 [Grunt PostCSS]: https://github.com/nDmitry/grunt-postcss
-[PostCSS]: https://github.com/postcss/postcss
-[Write SVG]: https://github.com/jonathantneal/postcss-write-svg
+[PostCSS]:       https://github.com/postcss/postcss
+[Write SVG]:     https://github.com/jonathantneal/postcss-write-svg
